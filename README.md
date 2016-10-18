@@ -20,7 +20,7 @@ Now, what if you want to customize the `UITableViewCell` ? Well, no worries just
 
 1. Add all the subviews and constraints to the cell's content view.
 2. If there are any descendants of `UIScrollView` then do the following:
-   ```swift
+   ```
    scrollview.scrollEnabled = false
    ```
 
